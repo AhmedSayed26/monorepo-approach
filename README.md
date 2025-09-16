@@ -20,6 +20,104 @@ This monorepo hosts the multi-tenant SaaS dashboard platform. It is organized in
   - feature-flags/: Feature flag definitions and strategies
 - scripts/: Developer scripts (bootstrap, dev)
 - .github/workflows/: CI pipelines
+- ---------------------------------------------------------------------
+├── apps
+|  ├── dashboard
+|  |  ├── next-env.d.ts
+|  |  ├── next.config.mjs
+|  |  ├── node_modules
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  └── marketing
+|     ├── eslint.config.mjs
+|     ├── next-env.d.ts
+|     ├── next.config.ts
+|     ├── node_modules
+|     ├── package.json
+|     ├── postcss.config.mjs
+|     ├── public
+|     ├── README.md
+|     ├── src
+|     └── tsconfig.json
+├── configs
+|  ├── env
+|  |  └── README.md
+|  └── feature-flags
+|     └── README.md
+├── docs
+|  ├── api-strategy.md
+|  ├── Architecture
+|  ├── architecture.md
+|  └── testing.md
+├── node_modules
+|  ├── @eslint
+|  ├── @eslint-community
+|  ├── @next
+|  ├── @rushstack
+|  ├── @typescript-eslint
+├── package.json
+├── packages
+|  ├── testing
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  ├── types
+|  |  ├── dist
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  ├── ui
+|  |  ├── dist
+|  |  ├── node_modules
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  └── utils
+|     ├── dist
+|     ├── node_modules
+|     ├── package.json
+|     ├── README.md
+|     ├── src
+|     └── tsconfig.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── scripts
+|  ├── bootstrap.ps1
+|  └── dev.ps1
+├── services
+|  ├── analytics
+|  |  ├── node_modules
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  ├── auth
+|  |  ├── node_modules
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  ├── billing
+|  |  ├── node_modules
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  └── tsconfig.json
+|  └── notifications
+|     ├── node_modules
+|     ├── package.json
+|     ├── README.md
+|     ├── src
+|     └── tsconfig.json
+├── tsconfig.base.json
+└── turbo.json
+
 
 ## Getting Started
 
